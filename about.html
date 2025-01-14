@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | K.O InnoVatech & Co.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png.jpg">
+</head>
+<body class="main-body">
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href=""><svg xmlns="http://www.w3.org/2000/svg" height="45px" viewBox="0 -960 960 960" width="45px" fill="white"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="join.html">Join Us</a></li>
+            <li><a href="Training and membership.html">Training</a></li>
+         <li><a href="#"></a></li>
+        </ul>
+        <ul>
+            <li><a href="index.html">K.O InnoVatech and Co.</a></li>
+            <li onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="45px" viewBox="0 -960 960 960" width="45px" fill="white"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            
+        </ul>
+
+    </nav>
+    <script>
+        function showSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hideSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
+     <header>
+        <h1 style="color: white;">About Us</h1>
+    </header>
+    <main>
+        <section class="company-overview" style="background-color: black;">
+            <h2 style="background-color: blue;">About K.O InnoVatech & Co.</h2>
+            <p>K.O InnoVatech & Co. is a forward-thinking technology company specializing in innovative solutions designed to meet the evolving needs of businesses and individuals. Our team of experts is dedicated to harnessing the power of technology to drive growth, enhance efficiency, and solve complex problems. We offer a range of services including product development, cybersecurity, and social responsibility programs. Our commitment to excellence is evident in every project we undertake, as we strive to exceed expectations and deliver results that make a difference.</p>
+            <p>At K.O InnoVatech & Co., we believe in the transformative power of technology. Our solutions are crafted with the goal of not just meeting immediate needs but also anticipating future challenges and opportunities. By staying at the forefront of technological advancements and maintaining a deep understanding of industry trends, we ensure that our clients receive the most relevant and effective solutions available.</p>
+        </section>
+        <section class="about-cards" style="background-color: black;">
+            <div class="service-card">
+                <div class="service-card-content">
+                    <h2 style="color: blue;">Our Mission</h2>
+                    <p>To deliver innovative solutions and services that empower businesses and individuals to achieve their full potential. We are committed to providing cutting-edge technology and exceptional service to help our students and clients succeed in a rapidly changing world.</p>
+                </div>
+            </div>
+            <div class="service-card">
+                <div class="service-card-content">
+                    <h2 style="color: blue;">Our Vision</h2>
+                    <p>To be a global leader in technology and consultancy, known for our commitment to excellence and social responsibility. We aim to set the standard for innovation and quality in the industry, making a positive impact on our clients and the world.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Get in touch with us:</p>
+        <p>Email: <a href="mailto:funmilayoolorode456@gmail.com">koinnovatech@yahoo.mail</a></p>
+        <p>Phone: <a href="call:+2348088520105">+234 (0) 808 852 0105</p>
+        <p>&copy; 2024 K.O InnoVatech & Co. All rights reserved.</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

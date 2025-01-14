@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services | K.O InnoVatech & Co.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png.jpg">
+</head>
+<body class="front-body">  
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href=""><svg xmlns="http://www.w3.org/2000/svg" height="45px" viewBox="0 -960 960 960" width="45px" fill="white"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="join.html">Join Us</a></li>
+            <li><a href="Training and membership.html">Training</a></li>
+         <li><a href="#"></a></li>
+        </ul>
+        <ul>
+            <li><a href="index.html">K.O InnoVatech and Co.</a></li>
+            <li onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="45px" viewBox="0 -960 960 960" width="45px" fill="white"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            
+        </ul>
+
+    </nav>
+    <script>
+        function showSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hideSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
+   <header>     
+        <h1>Our Services </h1>
+    </header>
+<main>
+        <section class="services">
+            <div class="service-card">
+                <div class="service-card-content">
+                    <h2>Innovative Product Development</h2>
+                    <p>We specialize in creating cutting-edge products tailored to your needs. From initial concept to final product, we ensure high quality and innovation.</p>
+                </div>
+            </div>
+            <div class="service-card">
+                <div class="service-card-content">
+                    <h2>Computer Science and Cybersecurity Solutions</h2>
+                    <p>Our team offers expert solutions in computer science and cybersecurity to protect your data and enhance your technological infrastructure.</p>
+                </div>
+            </div>
+            <div class="service-card">
+                <div class="service-card-content">
+                    <h2>Social Responsibility Programs</h2>
+                    <p>We design and implement programs that promote social responsibility, helping businesses and individuals make a positive impact in their communities.</p>
+                </div>
+            </div>
+            <div class="service-card">
+                <div class="service-card-content">
+                    <h2>Business and Social Studies Consulting</h2>
+                    <p>Our consulting services offer insights and strategies in business and social studies to help you navigate complex challenges and drive growth.</p>
+                </div>
+            </div>
+            <div class="service-card full-width">
+                <div class="service-card-content">
+                    <h2>Promoting and Web Designing with ChatGPT</h2>
+                    <p>Leverage the power of ChatGPT for promoting your business and designing dynamic websites that engage and convert your audience.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 K.O InnoVatech & Co. All rights reserved.</p>
+        <a href="index.html">Back to Home</a>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

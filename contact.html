@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | K.O InnoVatech & Co.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png.jpg">
+</head>
+<body class="middle-body">
+        <nav>
+            <ul class="sidebar">
+                <li onclick=hideSidebar()><a href=""><svg xmlns="http://www.w3.org/2000/svg" height="45px" viewBox="0 -960 960 960" width="45px" fill="white"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="join.html">Join Us</a></li>
+                <li><a href="Training and membership.html">Training</a></li>
+             <li><a href="#"></a></li>
+            </ul>
+            <ul>
+                <li><a href="index.html">K.O InnoVatech and Co.</a></li>
+                <li onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="45px" viewBox="0 -960 960 960" width="45px" fill="white"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+                
+            </ul>
+    
+        </nav>
+        <script>
+            function showSidebar(){
+                const sidebar = document.querySelector('.sidebar')
+                sidebar.style.display = 'flex'
+            }
+            function hideSidebar(){
+                const sidebar = document.querySelector('.sidebar')
+                sidebar.style.display = 'none'
+            }
+        </script>
+    <header>    
+        <h1>Contact Us</h1>
+    </header>
+</div>
+<div class="out">
+        <section class="contact-container">
+            <div class="contact-form">
+                <h2>Get In Touch</h2>
+                <form action="https://formspree.io/f/movvrggd" method="POST">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <div class="contact-map">
+                <h2>Our Location</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.7894847945163!2d3.272054570127052!3d6.627667807309731!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b90948de2c5bd%3A0x6ccae3bc291915ac!2s1-23%20Ifelodun%20St%2C%20Oke%20Odo%2C%20Lagos%20102213%2C%20Lagos!5e1!3m2!1sen!2sng!4v1724918574795!5m2!1sen!2sng" width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+</div>
+    <footer>
+        <p>Find us at:</p>
+        <p>Email: <a href="mailto:funmilayoolorode456@gmail.com">koinnovatech@yahoo.mail</a></p>
+        <p>Phone: +234 (0) 808 852 0105</p>
+        <p>&copy; 2024 K.O InnoVatech & Co. All rights reserved.</p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
